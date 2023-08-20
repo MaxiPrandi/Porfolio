@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.br-2.animado {
+  opacity: 0;
+}
+
+.br-1.animado {
+  transform: rotate(45deg) translate(9px, 8px);
+  transform-origin: 0% 100%;
+}
+
+.br-3.animado {
+  transform: rotate(-45deg) translate(-6px, 8px);
+  transform-origin: 0% 100%;
+}
+
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3) ;
+  z-index: 10;
+}
+.btn-wsp:hover{
+  text-decoration: none;
+  color:#0df053;
+  background-color: #fff;
+}
