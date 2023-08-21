@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Sino encuentra la fuente roboto en este caso usa la fuente default
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: ['./dist/**/*.{html,js}'],

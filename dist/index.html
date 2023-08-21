@@ -17,7 +17,7 @@
     />
     <script src="./app.js" defer></script>
     <script>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      // Modo oscuro sacado de FLOWBITE
       if (
         localStorage.getItem('color-theme') === 'dark' ||
         (!('color-theme' in localStorage) &&
@@ -66,7 +66,7 @@
           <button id="darkButton">
             <i class="bi bi-moon-stars-fill text-sky-600 text-2xl"></i>
           </button>
-          <!-- BOTON MENU HAMBURGUESA -->
+          <!-- BOTON MENU HAMBURGUESA (Los Span son los palitos del menu hamburguesa) -->
         </div>
         <button id="menu-button" class="absolute top-10 right-12 md:hidden">
           <span
@@ -83,6 +83,7 @@
       <!-- FIN DEL MENU  -->
     </header>
     <main>
+
       <!-- #1 SECCION HERO  -->
       <section class="my-0 flex flex-col lg:flex-row lg:h-[850px]">
         <div class="p-10 lg:w-[80%] lg:h-[500px] lg:self-center">
@@ -126,10 +127,11 @@
             </button>
           </div>
         </div>
+
         <!-- Contenedor para la Imagen -->
         <div class="my-10 w-full">
           <div
-            class="w-[300px] h-[320px] m-auto bg-[url('./img/profile.jpg')]  lg:bg-[url('./img/profile.jpg')] bg-cover rounded-full lg:w-[100%] lg:h-[100%] lg:bg-center lg:bg-no-repeat lg:bg-[length:450px_576px] "
+            class="w-[300px] h-[320px] m-auto bg-[url('./img/profile.png')] bg-cover rounded-lg lg:bg-[url('./img/profile.png')] lg: mt-36 lg:w-[50%] lg:h-[50%] lg:bg-center lg:rounded-lg lg:bg-no-repeat  lg:bg-[length:100%_100%] "
           ></div>
         </div>
       </section>

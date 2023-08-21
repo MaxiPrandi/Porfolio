@@ -4,14 +4,21 @@ const menuItems = document.querySelector('#menu');
 const menuButtonSpans = document.querySelectorAll('#menu-button span');
 const links = document.querySelectorAll('#menu a');
 const main = document.querySelector('main');
+
+// Funcion para ocultar el menu hamburguesa
+
 menuButton.addEventListener('click', () => {
   menuItems.classList.toggle('hidden');
   main.classList.toggle('opacity-10');
+
+  //Convierte los Span en una X para cerrar el menu
 
   menuButtonSpans.forEach((span) => {
     span.classList.toggle('animado');
   });
 });
+
+//Funcion para cerrar los links al clickear
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
@@ -23,7 +30,7 @@ links.forEach((link) => {
   });
 });
 
-// CIERRA MENU ON RESIZE
+// CIERRA MENU CUANDO SE MAXIMIZA LA PANTALLA
 
 window.onresize = function () {
   let w = window.outerWidth;
@@ -35,7 +42,7 @@ window.onresize = function () {
   }
 };
 
-/**DARK MODE*/
+/**DARK MODE JS sacado de FLOWBITE*/
 
 const darkButton = document.querySelector('#darkButton');
 
