@@ -551,12 +551,56 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-10 {
   top: 2.5rem;
 }
 
 .right-8 {
   right: 2rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.right-10 {
+  right: 2.5rem;
 }
 
 .m-auto {
@@ -606,6 +650,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -628,6 +676,22 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -730,6 +794,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -761,11 +829,6 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-sky-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
 .bg-sky-700 {
@@ -1007,34 +1070,14 @@ video {
   background-color: #fff;
 }
 
-.hover\:bg-sky-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-sky-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(56 189 248 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-sky-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-sky-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-sky-700:hover {
+.hover\:bg-white:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
@@ -1134,14 +1177,6 @@ video {
 .dark .hover\:dark\:bg-slate-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.dark .hover\:dark\:font-bold:hover {
-  font-weight: 700;
-}
-
-.dark .hover\:dark\:font-normal:hover {
-  font-weight: 400;
 }
 
 .dark .hover\:dark\:text-slate-900:hover {
