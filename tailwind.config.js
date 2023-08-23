@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto', ...defaultTheme.fontFamily.sans],
+        rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
       },
     },
   },
