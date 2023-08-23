@@ -52,9 +52,11 @@ darkButton.addEventListener('click', function () {
     if (localStorage.getItem('color-theme') === 'light') {
       document.documentElement.classList.add('dark');
       localStorage.setItem('color-theme', 'dark');
+      document.getElementById('text').innerHTML="Dark";
     } else {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('color-theme', 'light');
+      document.getElementById('text').innerHTML="Light"
     }
 
     // if NOT set via local storage previously
