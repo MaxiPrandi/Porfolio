@@ -25,7 +25,7 @@ module.exports = {
       },
       animation: {
         'slide-down': 'slide-down 2s',
-        'fade-in': 'fade-in 5s'
+        'fade-in': 'fade-in 4s'
       },
     },
   },
