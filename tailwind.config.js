@@ -13,6 +13,20 @@ module.exports = {
         roboto: ['Roboto', ...defaultTheme.fontFamily.sans],
         rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        'slide-down': {
+          '0%': { top: '-5rem' },
+          '100%': { top: '0rem' },
+        },
+        'fade-in':{
+          '0%':{opacity :'0%'},
+          '100%': {opacity: '100%'}
+        }
+      },
+      animation: {
+        'slide-down': 'slide-down 2s',
+        'fade-in': 'fade-in 5s'
+      },
     },
   },
   plugins: [],
