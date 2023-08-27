@@ -822,6 +822,30 @@ video {
   background-image: url('./img/profile.png');
 }
 
+.bg-\[url\(\'\.\/img\/\'\)\] {
+  background-image: url('./img/');
+}
+
+.bg-\[url\(\'\.\/img\/f\'\)\] {
+  background-image: url('./img/f');
+}
+
+.bg-\[url\(\'\.\/img\'\)\] {
+  background-image: url('./img');
+}
+
+.bg-\[url\(\'\.\/img\/bg-footer\.jfif\'\)\] {
+  background-image: url('./img/bg-footer.jfif');
+}
+
+.bg-\[url\(\'\.\/img\/bg-footer\.j\'\)\] {
+  background-image: url('./img/bg-footer.j');
+}
+
+.bg-\[url\(\'\.\/img\/bg-footer\.jpg\'\)\] {
+  background-image: url('./img/bg-footer.jpg');
+}
+
 .from-slate-900 {
   --tw-gradient-from: #0f172a;
   --tw-gradient-to: rgb(15 23 42 / 0);
@@ -834,6 +858,22 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-7 {
@@ -1142,6 +1182,10 @@ video {
 
 .dark .dark\:bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.dark .dark\:bg-\[url\(\'\.\/img\/bg-footer\.jpg\'\)\] {
+  background-image: url('./img/bg-footer.jpg');
 }
 
 .dark .dark\:text-cyan-50 {
