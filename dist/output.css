@@ -798,6 +798,11 @@ video {
   background-color: rgb(199 210 254 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -813,43 +818,14 @@ video {
   background-color: rgb(3 105 161 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(165 180 252 / var(--tw-bg-opacity));
-}
-
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .bg-\[url\(\'\.\/img\/profile\.png\'\)\] {
   background-image: url('./img/profile.png');
-}
-
-.from-secondary {
-  --tw-gradient-from: #a5b4fc;
-  --tw-gradient-to: rgb(165 180 252 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-indigo-300 {
-  --tw-gradient-from: #a5b4fc;
-  --tw-gradient-to: rgb(165 180 252 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-slate-900 {
   --tw-gradient-from: #0f172a;
   --tw-gradient-to: rgb(15 23 42 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-primary {
-  --tw-gradient-to: #e0e7ff;
-}
-
-.to-indigo-100 {
-  --tw-gradient-to: #e0e7ff;
 }
 
 .to-slate-600 {
@@ -1154,11 +1130,6 @@ video {
   background-color: rgb(224 231 255 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
 .dark .dark\:bg-slate-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -1167,11 +1138,6 @@ video {
 .dark .dark\:bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gradient-to-r {
@@ -1224,6 +1190,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:right-12 {
+    right: 3rem;
+  }
+
+  .md\:right-4 {
+    right: 1rem;
+  }
+
   .md\:flex {
     display: flex;
   }
