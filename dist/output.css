@@ -614,10 +614,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mr-12 {
-  margin-right: 3rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -644,14 +640,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mr-14 {
-  margin-right: 3.5rem;
-}
-
-.mr-0 {
-  margin-right: 0px;
 }
 
 .block {
@@ -739,7 +727,7 @@ video {
 }
 
 .animate-fade-in {
-  animation: fade-in 5s;
+  animation: fade-in 4s;
 }
 
 .flex-col {
@@ -825,14 +813,43 @@ video {
   background-color: rgb(3 105 161 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
 .bg-\[url\(\'\.\/img\/profile\.png\'\)\] {
   background-image: url('./img/profile.png');
+}
+
+.from-secondary {
+  --tw-gradient-from: #a5b4fc;
+  --tw-gradient-to: rgb(165 180 252 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-indigo-300 {
+  --tw-gradient-from: #a5b4fc;
+  --tw-gradient-to: rgb(165 180 252 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-slate-900 {
   --tw-gradient-from: #0f172a;
   --tw-gradient-to: rgb(15 23 42 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-primary {
+  --tw-gradient-to: #e0e7ff;
+}
+
+.to-indigo-100 {
+  --tw-gradient-to: #e0e7ff;
 }
 
 .to-slate-600 {
@@ -1134,7 +1151,12 @@ video {
 
 .dark .dark\:bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: rgb(224 231 255 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-slate-800 {
@@ -1145,6 +1167,11 @@ video {
 .dark .dark\:bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gradient-to-r {
@@ -1196,29 +1223,7 @@ video {
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:mr-0 {
-    margin-right: 0px;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:mr-2 {
-    margin-right: 0.5rem;
-  }
-
-  .md\:mr-4 {
-    margin-right: 1rem;
-  }
-
-  .md\:mr-8 {
-    margin-right: 2rem;
-  }
-
-  .md\:mr-0 {
-    margin-right: 0px;
-  }
-
   .md\:flex {
     display: flex;
   }
