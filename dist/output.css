@@ -634,12 +634,28 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .block {
@@ -822,30 +838,6 @@ video {
   background-image: url('./img/profile.png');
 }
 
-.bg-\[url\(\'\.\/img\/\'\)\] {
-  background-image: url('./img/');
-}
-
-.bg-\[url\(\'\.\/img\/f\'\)\] {
-  background-image: url('./img/f');
-}
-
-.bg-\[url\(\'\.\/img\'\)\] {
-  background-image: url('./img');
-}
-
-.bg-\[url\(\'\.\/img\/bg-footer\.jfif\'\)\] {
-  background-image: url('./img/bg-footer.jfif');
-}
-
-.bg-\[url\(\'\.\/img\/bg-footer\.j\'\)\] {
-  background-image: url('./img/bg-footer.j');
-}
-
-.bg-\[url\(\'\.\/img\/bg-footer\.jpg\'\)\] {
-  background-image: url('./img/bg-footer.jpg');
-}
-
 .from-slate-900 {
   --tw-gradient-from: #0f172a;
   --tw-gradient-to: rgb(15 23 42 / 0);
@@ -858,14 +850,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-\[length\:100\%_100\%\] {
