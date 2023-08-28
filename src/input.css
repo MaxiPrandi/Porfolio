@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.container{
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
 /* Menu hamburguesa Span X */
 
 .br-2.animado {
