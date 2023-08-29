@@ -567,6 +567,30 @@ video {
   top: 2.5rem;
 }
 
+.right-14 {
+  right: 3.5rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1062,7 +1086,7 @@ video {
   height: 55px;
   line-height: 55px;
   bottom: 30px;
-  right: 30px;
+  right: 20px;
   background-color: #0df053;
   color: #fff;
   border-radius: 50px;
